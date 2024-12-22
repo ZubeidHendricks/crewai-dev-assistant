@@ -25,7 +25,7 @@ jobs:
     - name: Run CrewAI assistant
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: python crew_assistant.py
 
     - name: Commit results

@@ -1,5 +1,5 @@
 crewai
 langchain
-openai
+anthropic
 python-dotenv
 PyGithub
